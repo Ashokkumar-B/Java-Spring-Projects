@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+    <definition name="base.definition"
+        template="/WEB-INF/views/pages/layout.jsp">
+        <put-attribute name="title" value="" />
+        <put-attribute name="header" value="/WEB-INF/views/pages/header.jsp" />
+        <put-attribute name="menu" value="/WEB-INF/views/pages/menu.jsp" />
+        <put-attribute name="body" value="" />
+        <put-attribute name="footer" value="/WEB-INF/views/pages/footer.jsp" />
+    </definition>
+ 
+    <definition name="welcome" extends="base.definition">
+        <put-attribute name="title" value="Welcome" />
+        <put-attribute name="body" value="/WEB-INF/views/pages/welcomePage.jsp" />
+    </definition>
+    
+    <definition name="admin" extends="base.definition">
+        <put-attribute name="title" value="Admin" />
+        <put-attribute name="body" value="/WEB-INF/views/pages/adminPage.jsp" />
+    </definition>
+    
+    
+    <definition name="login" extends="base.definition">
+        <put-attribute name="title" value="Login" />
+        <put-attribute name="body" value="/WEB-INF/views/pages/loginPage.jsp" />
+    </definition>
+    
+    <definition name="logoutSuccessful" extends="base.definition">
+        <put-attribute name="title" value="Logout Successful" />
+        <put-attribute name="body" value="/WEB-INF/views/pages/logoutSuccessfulPage.jsp" />
+    </definition>
+    
+    <definition name="userInfo" extends="base.definition">
+        <put-attribute name="title" value="User Page" />
+        <put-attribute name="body" value="/WEB-INF/views/pages/userInfoPage.jsp" />
+    </definition>
+    
+    <definition name="403" extends="base.definition">
+        <put-attribute name="title" value="403 Access Denied" />
+        <put-attribute name="body" value="/WEB-INF/views/pages/403Page.jsp" />
+    </definition>
+ 
+</tiles-definitions>
