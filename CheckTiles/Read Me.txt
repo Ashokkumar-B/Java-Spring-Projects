@@ -1,2 +1,0 @@
-This version have Tiles configuration project
-Version: 1.0.0
