@@ -1,8 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="U:/D Backup/Jar Files/jna-4.1.0.jar"/>
-	<classpathentry kind="lib" path="U:/D Backup/Jar Files/jna-platform-4.1.0.jar"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="U:/D Backup/Jar Files/tiles-3.0.5/tiles-api-3.0.5.jar"/>
+	<classpathentry kind="lib" path="U:/D Backup/Jar Files/tiles-3.0.5/tiles-autotag-core-runtime-1.1.0.jar"/>
+	<classpathentry kind="lib" path="U:/D Backup/Jar Files/tiles-3.0.5/tiles-compat-3.0.5.jar"/>
+	<classpathentry kind="lib" path="U:/D Backup/Jar Files/tiles-3.0.5/tiles-core-3.0.5.jar"/>
+	<classpathentry kind="lib" path="U:/D Backup/Jar Files/tiles-3.0.5/tiles-el-3.0.5.jar"/>
+	<classpathentry kind="lib" path="U:/D Backup/Jar Files/tiles-3.0.5/tiles-extras-3.0.5.jar"/>
+	<classpathentry kind="lib" path="U:/D Backup/Jar Files/tiles-3.0.5/tiles-freemarker-3.0.5.jar"/>
+	<classpathentry kind="lib" path="U:/D Backup/Jar Files/tiles-3.0.5/tiles-jsp-3.0.5.jar"/>
+	<classpathentry kind="lib" path="U:/D Backup/Jar Files/tiles-3.0.5/tiles-mvel-3.0.5.jar"/>
+	<classpathentry kind="lib" path="U:/D Backup/Jar Files/tiles-3.0.5/tiles-ognl-3.0.5.jar"/>
+	<classpathentry kind="lib" path="U:/D Backup/Jar Files/tiles-3.0.5/tiles-request-api-1.0.6.jar"/>
+	<classpathentry kind="lib" path="U:/D Backup/Jar Files/tiles-3.0.5/tiles-request-freemarker-1.0.6.jar"/>
+	<classpathentry kind="lib" path="U:/D Backup/Jar Files/tiles-3.0.5/tiles-request-jsp-1.0.6.jar"/>
+	<classpathentry kind="lib" path="U:/D Backup/Jar Files/tiles-3.0.5/tiles-request-mustache-1.0.6.jar"/>
+	<classpathentry kind="lib" path="U:/D Backup/Jar Files/tiles-3.0.5/tiles-request-servlet-1.0.6.jar"/>
+	<classpathentry kind="lib" path="U:/D Backup/Jar Files/tiles-3.0.5/tiles-request-servlet-wildcard-1.0.6.jar"/>
+	<classpathentry kind="lib" path="U:/D Backup/Jar Files/tiles-3.0.5/tiles-request-velocity-1.0.6.jar"/>
+	<classpathentry kind="lib" path="U:/D Backup/Jar Files/tiles-3.0.5/tiles-servlet-3.0.5.jar"/>
+	<classpathentry kind="lib" path="U:/D Backup/Jar Files/tiles-3.0.5/tiles-template-3.0.5.jar"/>
+	<classpathentry kind="lib" path="U:/D Backup/Jar Files/tiles-3.0.5/tiles-velocity-3.0.5.jar"/>
+	<classpathentry kind="lib" path="U:/D Backup/Jar Files/tiles-3.0.5/lib/commons-beanutils-1.8.0.jar"/>
+	<classpathentry kind="lib" path="U:/D Backup/Jar Files/tiles-3.0.5/lib/commons-digester-2.0.jar"/>
+	<classpathentry kind="lib" path="U:/D Backup/Jar Files/tiles-3.0.5/lib/jcl-over-slf4j-1.7.6.jar"/>
+	<classpathentry kind="lib" path="U:/D Backup/Jar Files/tiles-3.0.5/lib/slf4j-api-1.7.6.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
 </classpath>
