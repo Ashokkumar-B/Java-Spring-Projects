@@ -1,6 +1,5 @@
 applications:
  - name: testApplication
-   url: testApplication.stag.paas.voxgen.com
    mem: 1G
    services: 
      rabbit_broker:
