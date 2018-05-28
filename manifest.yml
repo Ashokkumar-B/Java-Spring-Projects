@@ -1,0 +1,15 @@
+applications:
+ - name: testApplication
+   url: testApplication.stag.paas.voxgen.com
+   mem: 1G
+   services: 
+     rabbit_broker:
+       label: rabbitmq3
+   stackato:
+    env:
+     spring_profiles_active: sw.admin.service,sw.calllogging.service,cloud
+     STACKATO_LOG_FILES: ${name}-logs=/app/logs/1.1/application.log:$STACKATO_LOG_FILES
+    hooks:
+     post-staging:
+      - mkdir -p "$HOME"/logs/1.1
+      - touch "$HOME"/logs/1.1/application.log
